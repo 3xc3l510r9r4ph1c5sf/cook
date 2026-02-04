@@ -49,12 +49,12 @@ const features = [
   },
   {
     Icon: "",
-    name: "I'm Josh",
+    name: "We're Excelsior Creative",
     description:
-      "software engineer & open-source contributor focused in gen-ai, web, linux, cybersecurity, and finance.",
+      "A San Francisco design studio blending graphic design, AI tools, and modern web systems to help local businesses look world-class without world-class budgets.",
     className: "col-span-3 md:col-span-1",
-    href: `${process.env.NEXT_PUBLIC_PORTFOLIO_URL}`,
-    cta: "Visit portfolio",
+    href: "#contact-form",
+    cta: "based in the Excelsior District",
     background: (
       <div>
         <div className="absolute right-0 top-0 h-3/4 w-full border-none transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_5%,#000_50%)] group-hover:scale-105">
@@ -100,7 +100,7 @@ const features = [
               ></div>
               <div className="">
                 {process.env.NEXT_PUBLIC_AVAILABLE_FOR_FREELANCE == "true"
-                  ? "available"
+                  ? "taking new projects"
                   : "on engagement"}
               </div>
             </div>
@@ -170,11 +170,11 @@ const features = [
   },
   {
     Icon: "",
-    name: "AI Integrations",
+    name: "AI-Powered Creative Systems",
     description:
-      "Generative UIs, LLMs, Transformers, Chatbots, Classification, and more.",
-    href: `${process.env.NEXT_PUBLIC_PORTFOLIO_URL}/tags/ai`,
-    cta: "Visit AI projects",
+      "Branding, websites, automation, content systems, and design workflows powered by the latest AI tools — built for real businesses, not tech demos.",
+    href: "#contact-form",
+    cta: "Learn more",
     className: "col-span-3 md:col-span-2",
     background: (
       <motion.div
@@ -188,10 +188,10 @@ const features = [
   },
   {
     Icon: "",
-    name: "Seamless Deployments",
-    description: "Push, build, deploy.",
+    name: "From Concept to Live in Days",
+    description: "We design, build, and deploy your brand, website, booking system, and marketing assets so you can start operating immediately.",
     className: "col-span-3 md:col-span-1",
-    href: `${process.env.NEXT_PUBLIC_PORTFOLIO_URL}/tags/vercel`,
+    href: "#contact-form",
     cta: "Learn more",
     background: (
       <div className="absolute w-full h-full right-0 top-0 origin-top rounded-md transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_25%,#000_70%)] group-hover:scale-105">
@@ -202,11 +202,11 @@ const features = [
 
   {
     Icon: "",
-    name: "Worldwide Reach",
+    name: "Local Roots. Global Quality.",
     description:
-      "Deploy to any region on earth. From remote servers, on-prem, in the cloud, or to the edge.",
+      "Designed in San Francisco's Excelsior District. Built to compete anywhere. Your business can look as polished as a national brand — without losing its neighborhood soul.",
     className: "col-span-3 md:col-span-3",
-    href: `${process.env.NEXT_PUBLIC_PORTFOLIO_URL}/tags/vercel`,
+    href: "#contact-form",
     cta: "Learn more",
     background: (
       <div className="absolute w-full h-full right-0 top-0 origin-top rounded-md transition-all duration-300 ease-out  [mask-image:linear-gradient(to_top,transparent_20%,#000_100%)] md:[mask-image:linear-gradient(to_top,transparent_10%,#000_100%)] group-hover:scale-105 group-hover:-translate-y-4">
@@ -217,11 +217,11 @@ const features = [
 
   {
     Icon: "",
-    name: "GitHub Stars",
-    description: "Star this repository to show your support.",
+    name: "Trusted by Local Businesses",
+    description: "From yoga studios to florists, wellness brands to creatives — our systems help small businesses look established, credible, and modern.",
     className: "col-span-3 md:col-span-1",
-    href: `${process.env.GITHUB_URL}/${process.env.REPO_NAME}`,
-    cta: "Star repository",
+    href: "#contact-form",
+    cta: "See our work",
     background: (
       <div className="absolute h-full w-full left-0 top-0 origin-top rounded-md transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_40%,#000_70%)] group-hover:scale-105 group-hover:-translate-y-4">
         <div className="text-7xl font-semibold w-full flex justify-center items-center h-2/3 group-hover:-translate-y-2 transition-all duration-300">
@@ -246,12 +246,12 @@ const features = [
 
   {
     Icon: "",
-    name: "Project Showcase",
+    name: "Studio Projects",
     description:
-      "Here are a few of my recent projects, using the technologies mentioned above.",
+      "A selection of brand identities, websites, marketing systems, and AI-assisted creative builds for real clients and community businesses.",
     className: "col-span-3 md:col-span-2",
-    href: `${process.env.NEXT_PUBLIC_PORTFOLIO_URL}/projects`,
-    cta: "All projects",
+    href: "#contact-form",
+    cta: "View all projects",
     background: (
       <div className="absolute h-full w-full left-0 top-0 origin-top rounded-md transition-all duration-300 ease-out group-hover:scale-[102%]">
         <div className="absolute h-full w-full [mask-image:linear-gradient(to_top,transparent_20%,#000_70%)]">
@@ -269,20 +269,20 @@ const features = [
 
   {
     Icon: "",
-    name: "Developer Tools",
-    description: "Built with modern development practices and workflows.",
+    name: "Modern Tools. Timeless Design.",
+    description: "Built using today's best platforms — Squarespace, Mindbody, Canva, AI image tools, automation, and custom design systems — without the tech overwhelm.",
     className: "col-span-3 md:col-span-3",
-    href: `${process.env.NEXT_PUBLIC_PORTFOLIO_URL}/tags/devtools`,
-    cta: "View tools",
+    href: "#contact-form",
+    cta: "See our toolkit",
     background: (
       <div className="absolute h-full w-full left-0 top-0 origin-top rounded-md transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_30%,#000_70%)] group-hover:scale-[102%]">
         <div className="flex items-center justify-center h-full w-full p-4">
           <Terminal className="w-full max-w-md">
-            <TypingAnimation>$ pnpm create next-app</TypingAnimation>
-            <AnimatedSpan>✔ Creating a new Next.js app...</AnimatedSpan>
-            <AnimatedSpan>✔ Installing dependencies...</AnimatedSpan>
-            <AnimatedSpan>✔ Initializing project...</AnimatedSpan>
-            <AnimatedSpan className="text-green-500">✓ Success! Ready to code.</AnimatedSpan>
+            <TypingAnimation>$ designing your brand...</TypingAnimation>
+            <AnimatedSpan>✔ Creating visual identity...</AnimatedSpan>
+            <AnimatedSpan>✔ Building website...</AnimatedSpan>
+            <AnimatedSpan>✔ Deploying to live...</AnimatedSpan>
+            <AnimatedSpan className="text-green-500">✓ Your business is online.</AnimatedSpan>
           </Terminal>
         </div>
       </div>
@@ -291,11 +291,11 @@ const features = [
 
   {
     Icon: "",
-    name: "Daily Visitors",
+    name: "Real Engagement. Real Growth.",
     description:
-      "Live visitor stats for this website, powered by Umami Analytics.",
-    href: "https://umami.is",
-    cta: "Umami",
+      "Our designs don't just look good — they help businesses get seen, get trusted, and get booked.",
+    href: "#contact-form",
+    cta: "See results",
     className: "col-span-3 md:col-span-2",
     background: (
       <>
@@ -316,8 +316,8 @@ const features = [
     name: "",
     description: "",
     className: "col-span-3 md:col-span-1",
-    href: `${process.env.NEXT_PUBLIC_PORTFOLIO_URL}/now`,
-    cta: "Ideas",
+    href: "#contact-form",
+    cta: "Learn more",
     background: (
       <div className="absolute h-full w-full left-0 top-0 origin-top rounded-md transition-all duration-300 ease-out group-hover:scale-[105%]">
         <div className="absolute h-full w-full [mask-image:linear-gradient(to_top,transparent_20%,#000_70%)]">
@@ -345,15 +345,14 @@ const features = [
           <div className="max-w-sm w-full flex flex-col gap-2">
             <div className="text-5xl md:text-6xl font-semibold text-neutral-700 dark:text-neutral-300 w-full flex justify-start">
               <BlurIn duration={0.5} className="h-full">
-                Get in touch.
+                Start Your Project.
               </BlurIn>
             </div>
             <div className="w-full flex justify-center text-neutral-500 dark:text-neutral-400">
-              Leave your email to get the conversation started. We&apos;ll be in
-              touch soon.
+              Tell us about your business. We&apos;ll respond with ideas, direction, and a clear plan — no pressure, no jargon.
             </div>
             <div className="text-sm text-neutral-500 dark:text-neutral-400 mt-2">
-              *Your email will never be shared with anyone.
+              Your information stays private. Always.
             </div>
             <div className="">
               <EmailForm />

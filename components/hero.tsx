@@ -11,43 +11,38 @@ export default function Hero() {
   return (
     <div className="relative flex h-full w-full mx-auto items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl">
       <div className="flex flex-col items-start justify-center h-full overflow-hidden p-6 z-50">
-        <WordPullUp words="Let's Cook" />
+        <WordPullUp words="Let's Build What Your Business Should Look Like in 2026." className="text-4xl md:text-5xl lg:text-6xl" />
 
         <div className="text-lg text-neutral-500 dark:text-neutral-400 lg:px-1 w-full ">
-          <BlurIn className="w-3/4 sm:w-2/3">
-            I craft sleek, full-stack experiences that users love and developers
-            enjoy expanding.
+          <BlurIn className="w-full">
+            We craft AI-powered branding, websites, and visual systems that small businesses, studios, and neighborhoods grow into — not out of.
           </BlurIn>
 
           <FadeIn direction="down" className="my-class">
             <div className="flex items-center gap-2 w-full lg:w-2/3 mt-6">
               <a
-                href={process.env.GITHUB_URL}
-                target="_blank"
+                href="#contact-form"
                 className="flex-1"
               >
                 <Button
                   variant="default"
                   size="lg"
-                  className="flex items-center gap-2 w-full group/Github"
+                  className="flex items-center gap-2 w-full"
                 >
-                  <div>GitHub</div>
-                  <Github className="h-5 w-5 lg:group-hover/Github:translate-x-1 transition-all duration-300" />
+                  <div>View Work</div>
                 </Button>
               </a>
 
               <a
-                href="mailto:engage_intellect@protonmail.com"
-                target="_blank"
+                href="#contact-form"
                 className="flex-1"
               >
                 <Button
                   variant="default"
                   size="lg"
-                  className="flex items-center gap-2 w-full group/Mail"
+                  className="flex items-center gap-2 w-full"
                 >
-                  <div>Email Me</div>
-                  <Mail className="h-5 w-5 lg:group-hover/Mail:translate-x-1 transition-all duration-300" />
+                  <div>Start a Project</div>
                 </Button>
               </a>
             </div>
